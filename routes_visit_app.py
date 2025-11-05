@@ -404,7 +404,7 @@ if vmode == "Mobile":
             st.error(f"Failed to update the sheet: {e}")
             st.stop()
 
-        st.experimental_rerun()
+        st.rerun()
 
 # ====== Desktop inline editor ======
 if vmode == "Desktop":
